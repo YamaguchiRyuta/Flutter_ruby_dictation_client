@@ -27,7 +27,7 @@ class _RubyDictationTemplateState extends State<RubyDictationTemplate> {
   AudioCh? _audioCh = AudioCh.ch2;
   AudioBit? _audioBit = AudioBit.bit8;
   AudioSampleRate? _audioSampleRate = AudioSampleRate.Hz8k;
-  String _formatCommand = '';
+  String _formatCommand = "format:mulaw:8:8000:2";
 
   final _audioPath = ValueNotifier('');
   bool _audioExists = false;
